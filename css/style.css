@@ -1,9 +1,3 @@
-
-
- /* ==================================== 
-   Media Querie 1
-   ==================================== */
-
    * {
     font-family: 'Inter', sans-serif; 
     box-sizing: border-box; 
@@ -19,7 +13,6 @@
      background: rgb(248, 248, 248);
      padding: 0;
    }
-   
    .intro {
      padding: 0 1em 0 1em;
    }
@@ -116,7 +109,6 @@
     display:none;
    }
 
-
  /* ==================================== 
    Media Querie 2
    ==================================== */
@@ -151,94 +143,73 @@
     position: relative;
     bottom: 8.3em;
   }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 1100px;
+    width: 55%;
+  }
+  
   .marketingpage {
-    width: 50%;
-    position: relative;
-    right: 11.3em;
+    order: 1;
+    padding-right: 1em;
   }
   .searchpage{
-    width: 50%;
-    position: relative;
-    bottom: 22.37em;
-    left: 11.5em;
+    order: 4;
+    padding-right: 1em;
   }
   .travelapp{
-    width: 50%;
-    position: relative;
-    bottom: 19em;
-    right: 11.3em;
+    order: 2;
+    padding-right: 1em;
   }
   .map{
-    width: 50%;
-    position: relative;
-    bottom: 41.3em;
-    left: 11.5em;
+    order: 5;
+    padding-right: 1em;
   }
   .photo{
-    width: 50%;
-    position: relative;
-    bottom: 39em;
-    right: 11.3em;
+    order: 3;
+    padding-right: 1em;
   }
   .calculator{
-    width: 50%;
-    position: relative;
-    bottom: 61.3em;
-    left: 11.5em;
-  }
-  .lefth3 {
-    position: relative;
-    right: 9.5em;
-  }
-  .righth3 {
-    position: relative;
-    bottom: 19em;
-    left: 9.7em;
-  }
-  .ptravel {
-    position: relative;
-    bottom: 17em;
-  }
-  .pgallery {
-    position: relative;
-    bottom: 34em;
-  }
-  .pmap {
-    position: relative;
-    bottom: 36.1em;
-  }
-  .pcalc {
-    position: relative;
-    bottom: 53em;  
-  }
-  .ph3left {
-    width: 19em; 
-    font-size: 15px;
-    position: relative;
-    left: 2em;
-  }
-  .ph3right {
-    width: 19em; 
-    font-size: 15px;
-    position: relative;
-    bottom: 23.9em;
-    left: 26em;
-  }
-  .textgallery {
-    position: relative;
-    bottom: 42em;
-  }
-  .texttravel {
-    position: relative;
-    bottom: 21em;
-  }
-  .textcalc {
-    position: relative;
-    bottom: 66em;
+    order: 6;
+    padding-right: 1em;
   }
   .textmap {
-    position: relative;
-    bottom: 45em;
+    width: 19em;
+    margin-right: 0;
+    margin-left: 3.5em;
+    margin-bottom: 2em;
+  }
+  .textsearch {
+    width: 19em;
+    margin-right: 0;
+    margin-left: 3.5em;
+    margin-bottom: 2em;
+  }
+  .textcalc {
+    width: 19em;
+    margin-right: 0;
+    margin-left: 3.5em;
+    margin-bottom: 2em;
+  }
+  .textmarketing{
+    width: 19em;
+    margin-right: 0;
+    margin-left: 3.5em;
+    margin-bottom: 2em;
+  }
+  .texttravel {
+    width: 19em;
+    margin-right: 0;
+    margin-left: 3.5em;
+    margin-bottom: 2em;
+  }
+  .textgallery {
+    width: 19em;
+    margin-right: 0;
+    margin-left: 3.5em;
+    margin-bottom: 2em;
   }
   .bp {
     width: 32em;
@@ -276,235 +247,18 @@
     font-weight: bold;
   }
   .main-footer {
-    position: relative;
-    padding-bottom: 2em;
+    height: 400px;
   }
   .name {
     color: black;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-  /* ==================================== 
+ /* ==================================== 
    Media Querie 3
    ==================================== */
-  /* @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
   
-  html{
-    height: 1530px;
-  }
-  body{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-    border-left: solid 15px rgb(248, 248, 248);
-    border-right: solid 15px rgb(248, 248, 248);
-  }
-  .resize {
-    position: relative;
-    top: 7em;
-    left: 1.5em;
-    margin-bottom: 9em;
-  } 
-  hr {
-    width: 90%;
-   }
-  h1 {
-    display: inline;
-    position: relative;
-    top: 2em;
-    padding-left: .90em;
-    }
-  .home {
-    position: relative;
-    top: .75em;
-    left: 24.5em;
-    margin-left: 20em;
-  }
-  .portfolio {
-    position: relative;
-    top: .75em;
-    left: 24.5em;
-  }
-  .contact {
-    position: relative;
-    top: .75em;
-    left: 24.5em;
-  }
-  .one {
-    width: 58%;
-    display: inline-block;
-  }
-  .searchpage {
-    position: relative;
-    right: 21.2em;
-  }
-  .marketingpage {
-    position: relative;
-    right: 5em;
-  }
-  .travelapp {
-    position: relative;
-    bottom: 24.8em;
-    left: 46.5em;
-  }
-  .two {
-    width: 58%;
-    display: inline-block;
-    
-  }
-  .map{
-    position: relative;
-    right: 46.99em;
-    
-  }
-  .photo {
-    position: relative;
-    bottom: 25.8em; 
-    right: 20.7em;
-  }
-  .calculator {
-    position: relative;
-    bottom: 51.5em;
-    left: 45.999em;
-  }
-  .pmap{
-    position: relative;
-    right: 39em;
-  }
-  .pgallery{
-    position: relative;
-    bottom: 22.1em;
-    right: 19em;
-  }
-  .pcalc{
-    position: relative;
-    bottom: 44.2em;
-    left: 40.5em;
-  }
-  .intro {
-    position: relative;
-    bottom: 11.8em;
-    right: 5.5em;
-    font-size: 1.7em;
-    width: 32em;
-    padding-bottom: 2em;
-    margin-left: 1.5em;
-    margin-top: 0;
-  }
-  .pmarketing{
-    position: relative;
-    right: 5em;
-  }
-  .psearch {
-    position: relative;
-    right: 17em;
-  }
-  .ptravel{
-    position: relative;
-    bottom: 21.5em;
-    left: 38.5em;
-  }
-  .textmarketing{
-    padding-left:0 ;
-    padding-right: 0;
-    width: 20em;
-    margin: 0;
-    position: relative;
-    left: 6em; 
-  }
-  .textsearch{
-    padding-left:0 ;
-    padding-right: 0;
-    width: 19.5em;
-    margin: 0;
-    position: relative;
-    right: 10em; 
-  }
-  .texttravel{
-    position: relative;
-    bottom: 25em; 
-    left: 50.1em;
-    width: 40em;
-    padding-right: 15em;
-    margin: 0;
-  }
-  .textmap{
-    position: relative;
-    right: 42.5em;
-    bottom: .5em;
-    width: 33em;
-  }
-  .textgallery{
-    position: relative;
-    bottom: 26.2em;
-    width: 26em;
-    padding-left: 0;
-    right: 10em;
-    
-  }
-  .textcalc {
-    position: relative;
-    bottom: 51.9em;
-    left: 50.8em;
-    width: 33em;
-  }
-  .bp {
-   position: relative;
-   right: 14.5em;
-   width: 74em;
-  }
-  .name{
-   position: relative;
-   left: 1.2em;
-   width: 10em;
-   margin-right: 0em;
-  }
-  .homebottom {
-   position: relative;
-   right: 1.2em;
-  }
-  .portfoliobottom {
-   position: relative;
-   right: 1.2em;
-  }
-  .contactbottom {
-   position: relative;
-   right: 1.2em;
-  }
-  .contactos{
-   position: relative;
-   right: 17.9em;
-  }
-  .address{
-    position: relative;
-    bottom: 35em;
-  }
-  footer{
-    height: 0px;
-  }
+
+  
 }
-        */
+       
