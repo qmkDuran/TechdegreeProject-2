@@ -1,0 +1,515 @@
+
+
+ /* ==================================== 
+   Media Querie 1
+   ==================================== */
+
+ @media screen and (min-width: 320px) {
+   * {
+    font-family: 'Inter', sans-serif; 
+    box-sizing: border-box; 
+   }
+   html {
+     font-size: 1em; 
+   }
+   img {
+     width: 100%; 
+     padding: 1em 0em 1em 0em;
+   }
+   header {
+     background: rgb(248, 248, 248);
+     padding: 0;
+   }
+   
+   .intro {
+     padding: 0 1em 0 1em;
+   }
+   .port{
+     padding: 2em 0 .5em 0em;
+   }
+   body {
+       text-align: center;
+   }
+   .resize {
+     display: block;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 1em;
+     padding-right: 1em;
+   }
+   p , h4 {
+     font-size: 13px;
+     color: rgb(119, 119, 119)
+   }
+   hr {
+     height: 1px;
+     background-color: #ccc;
+     border: none;
+     width: 90%
+   }
+   .main-footer {
+     text-align: center;
+     background: rgb(248, 248, 248);
+     overflow:hidden
+   }
+    /* Overflow hidden helps bring the background over to the student name and 
+    back to the top elements. Float causes them not to have a background, so
+    I had to find a work around.  */
+   
+   a {
+    color: inherit;
+   }
+   .back {
+     float: right;
+     padding:0 3em 1em 0;
+   }
+   
+   .bp {
+     padding: 1em 2em 1em 2em;
+   }
+  
+   header {
+     padding: 5vh 1rem;
+   }
+   .container {
+     padding-left: 2em;
+     padding-right: 2em;
+   }
+   .home {
+     background-color: white;
+     position: relative;
+     right: 1.3em;
+     padding: 1em;
+     margin: 1.5em 0em 0em 0em;
+     list-style: none; 
+     font-weight:bold;
+   }
+   .portfolio {
+     background-color: white;
+     position: relative;
+     right: 1.3em;
+     padding: 1em;
+     margin: .25em 0em 0em 0em;
+     list-style: none; 
+     font-weight:bold;
+   }
+   .contact {
+     background-color: white;
+     position: relative;
+     right: 1.3em;
+     padding: 1em;
+     margin: .25em 0em 2em 0em;
+     list-style: none; 
+     font-weight:bold; 
+   }
+   .name {
+     float: left;
+     padding: 0 0 1em 3em;
+   }
+   .homebottom {
+    display:none;
+   }
+   .portfoliobottom {
+    display:none;
+   }
+   .contactbottom {
+    display:none;
+   }
+}
+
+ /* ==================================== 
+   Media Querie 2
+   ==================================== */
+ 
+ @media screen and (min-width: 768px) {
+  
+  
+  header {
+    padding-bottom: 0;
+  }
+  body {
+    height: 2000px;
+  }
+  h1{
+    font-size: 27px;
+    position: relative;
+    top: .5em;
+  }
+  .home, .portfolio, .contact {
+    background-color: transparent;
+    display: inline;
+    position: relative;
+    top: 2em;
+  }
+  .resize{
+    width:43%;
+    position: relative;
+    top: 4em;
+    left: 13em;
+  }
+  .intro {
+    font-size: 18px;
+    width: 24em;
+    text-align: left;
+    position: relative;
+    bottom: 8.3em;
+  }
+  .marketingpage {
+    width: 50%;
+    position: relative;
+    right: 11.3em;
+  }
+  .searchpage{
+    width: 50%;
+    position: relative;
+    bottom: 22.37em;
+    left: 11.5em;
+  }
+  .travelapp{
+    width: 50%;
+    position: relative;
+    bottom: 19em;
+    right: 11.3em;
+  }
+  .map{
+    width: 50%;
+    position: relative;
+    bottom: 41.3em;
+    left: 11.5em;
+  }
+  .photo{
+    width: 50%;
+    position: relative;
+    bottom: 39em;
+    right: 11.3em;
+  }
+  .calculator{
+    width: 50%;
+    position: relative;
+    bottom: 61.3em;
+    left: 11.5em;
+  }
+  .lefth3 {
+    position: relative;
+    right: 9.5em;
+  }
+  .righth3 {
+    position: relative;
+    bottom: 19em;
+    left: 9.7em;
+  }
+  .ptravel {
+    position: relative;
+    bottom: 17em;
+  }
+  .pgallery {
+    position: relative;
+    bottom: 34em;
+  }
+  .pmap {
+    position: relative;
+    bottom: 36.1em;
+  }
+  .pcalc {
+    position: relative;
+    bottom: 53em;  
+  }
+  .ph3left {
+    width: 19em; 
+    font-size: 15px;
+    position: relative;
+    left: 2em;
+  }
+  .ph3right {
+    width: 19em; 
+    font-size: 15px;
+    position: relative;
+    bottom: 23.9em;
+    left: 26em;
+  }
+  .textgallery {
+    position: relative;
+    bottom: 42em;
+  }
+  .texttravel {
+    position: relative;
+    bottom: 21em;
+  }
+  .textcalc {
+    position: relative;
+    bottom: 66em;
+  }
+  .textmap {
+    position: relative;
+    bottom: 45em;
+  }
+  .bp {
+    width: 32em;
+    font-size: 20px;
+    position: relative;
+    left: 3.5em;
+  }
+  .contactos {
+    font-size: 15px;
+  }
+  .back {
+    display: none;
+  }
+  .homebottom {
+    display: block;
+    position: relative;
+    bottom: 1.1em;
+    left: 8.3em;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .portfoliobottom {
+    display: block;
+    position: relative;
+    left: 15.3em;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .contactbottom {
+    display: block;
+    position: relative;
+    top: 1.1em;
+    left: 23.3em;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .main-footer {
+    position: relative;
+    bottom: 61em;
+    padding-bottom: 2em;
+  }
+  .name {
+    color: black;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  /* ==================================== 
+   Media Querie 3
+   ==================================== */
+  /* @media screen and (min-width: 1024px) {
+  
+  html{
+    height: 1530px;
+  }
+  body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    border-left: solid 15px rgb(248, 248, 248);
+    border-right: solid 15px rgb(248, 248, 248);
+  }
+  .resize {
+    position: relative;
+    top: 7em;
+    left: 1.5em;
+    margin-bottom: 9em;
+  } 
+  hr {
+    width: 90%;
+   }
+  h1 {
+    display: inline;
+    position: relative;
+    top: 2em;
+    padding-left: .90em;
+    }
+  .home {
+    position: relative;
+    top: .75em;
+    left: 24.5em;
+    margin-left: 20em;
+  }
+  .portfolio {
+    position: relative;
+    top: .75em;
+    left: 24.5em;
+  }
+  .contact {
+    position: relative;
+    top: .75em;
+    left: 24.5em;
+  }
+  .one {
+    width: 58%;
+    display: inline-block;
+  }
+  .searchpage {
+    position: relative;
+    right: 21.2em;
+  }
+  .marketingpage {
+    position: relative;
+    right: 5em;
+  }
+  .travelapp {
+    position: relative;
+    bottom: 24.8em;
+    left: 46.5em;
+  }
+  .two {
+    width: 58%;
+    display: inline-block;
+    
+  }
+  .map{
+    position: relative;
+    right: 46.99em;
+    
+  }
+  .photo {
+    position: relative;
+    bottom: 25.8em; 
+    right: 20.7em;
+  }
+  .calculator {
+    position: relative;
+    bottom: 51.5em;
+    left: 45.999em;
+  }
+  .pmap{
+    position: relative;
+    right: 39em;
+  }
+  .pgallery{
+    position: relative;
+    bottom: 22.1em;
+    right: 19em;
+  }
+  .pcalc{
+    position: relative;
+    bottom: 44.2em;
+    left: 40.5em;
+  }
+  .intro {
+    position: relative;
+    bottom: 11.8em;
+    right: 5.5em;
+    font-size: 1.7em;
+    width: 32em;
+    padding-bottom: 2em;
+    margin-left: 1.5em;
+    margin-top: 0;
+  }
+  .pmarketing{
+    position: relative;
+    right: 5em;
+  }
+  .psearch {
+    position: relative;
+    right: 17em;
+  }
+  .ptravel{
+    position: relative;
+    bottom: 21.5em;
+    left: 38.5em;
+  }
+  .textmarketing{
+    padding-left:0 ;
+    padding-right: 0;
+    width: 20em;
+    margin: 0;
+    position: relative;
+    left: 6em; 
+  }
+  .textsearch{
+    padding-left:0 ;
+    padding-right: 0;
+    width: 19.5em;
+    margin: 0;
+    position: relative;
+    right: 10em; 
+  }
+  .texttravel{
+    position: relative;
+    bottom: 25em; 
+    left: 50.1em;
+    width: 40em;
+    padding-right: 15em;
+    margin: 0;
+  }
+  .textmap{
+    position: relative;
+    right: 42.5em;
+    bottom: .5em;
+    width: 33em;
+  }
+  .textgallery{
+    position: relative;
+    bottom: 26.2em;
+    width: 26em;
+    padding-left: 0;
+    right: 10em;
+    
+  }
+  .textcalc {
+    position: relative;
+    bottom: 51.9em;
+    left: 50.8em;
+    width: 33em;
+  }
+  .bp {
+   position: relative;
+   right: 14.5em;
+   width: 74em;
+  }
+  .name{
+   position: relative;
+   left: 1.2em;
+   width: 10em;
+   margin-right: 0em;
+  }
+  .homebottom {
+   position: relative;
+   right: 1.2em;
+  }
+  .portfoliobottom {
+   position: relative;
+   right: 1.2em;
+  }
+  .contactbottom {
+   position: relative;
+   right: 1.2em;
+  }
+  .contactos{
+   position: relative;
+   right: 17.9em;
+  }
+  .address{
+    position: relative;
+    bottom: 35em;
+  }
+  footer{
+    height: 0px;
+  }
+}
+        */
